@@ -15,7 +15,7 @@
 
 ## O que vou aprender?! :blue_book: 
 
-Nesse live coding, estaremos aprendendo a desenvolver uma pequena aplicação C# .NET Console que consiga persistir os dados através de arquivos: .csv, .txt ou .xml.
+Nesse live coding, estaremos aprendendo a desenvolver uma pequena aplicação C# .NET em Console que consiga persistir os dados através de arquivos: .csv, .txt ou .xml.
 Quem vem?! 😍
 
 ## Tenho Dúvidas... O que Faço?! :triangular_flag_on_post:
