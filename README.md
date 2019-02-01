@@ -6,7 +6,7 @@
 
 ### Visual Studio
 
-* [Visual Studio 2017](https://visualstudio.microsoft.com/pt-br/vs/)**
+* [Visual Studio 2017](https://visualstudio.microsoft.com/pt-br/vs/)
 
 ### Visual Studio Code
 
