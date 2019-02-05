@@ -12,30 +12,54 @@ namespace ManipulacaoArquivos.Input
 
         public int LerCodigoProduto()
         {
-            Console.Write("Informe o Código do Produto...: ");
-            int codigo = Convert.ToInt32(Console.ReadLine()); 
+            try
+            {
+                Console.Write("Informe o Código do Produto...: ");
+                int codigo = Convert.ToInt32(Console.ReadLine());
 
-            return codigo;
+                return codigo;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error...: " + e.Message);
+                return LerCodigoProduto();
+            }
         }
         #endregion
 
         #region Método LerNomeProduto
         public string LerNomeProduto()
         {
-            Console.Write("Informe o Nome do Produto...: ");
-            string nome = Console.ReadLine();
+            try
+            {
+                Console.Write("Informe o Nome do Produto...: ");
+                string nome = Console.ReadLine();
 
-            return nome;
+                return nome;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error...: " + e.Message);
+                return LerNomeProduto();
+            }
         }
         #endregion
 
         #region Método LerPrecoProduto
-        public string LerPrecoProduto()
+        public decimal LerPrecoProduto()
         {
-            Console.Write("Informe o Preço do Produto...: ");
-            decimal preco = Convert.ToDecimal(Console.ReadLine());
+            try
+            {
+                Console.Write("Informe o Preço do Produto...: ");
+                decimal preco = Convert.ToDecimal(Console.ReadLine());
 
-            return preco;
+                return preco;
+            }
+            catch (Exception e) 
+            {
+                Console.WriteLine("Error...: " + e.Message);
+                return LerPrecoProduto();
+            }
         }
         #endregion
     }
