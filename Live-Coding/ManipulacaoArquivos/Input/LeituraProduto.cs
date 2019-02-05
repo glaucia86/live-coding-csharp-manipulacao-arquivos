@@ -88,5 +88,34 @@ namespace ManipulacaoArquivos.Input
             }
         }
         #endregion
+
+        #region Método LerEmail
+        public string LerEmail()
+        {
+            try
+            {
+                Console.Write("Informe o e-mail do Cliente...: ");
+                string email = Console.ReadLine();
+
+                return email;
+
+                // var regex = new Regex("/^([A-Za-z0-9_\\-\\.])+\\@([A-Za-z0-9_\\-\\.])+\\.([A-Za-z]{2,4})$/");
+
+                //if(regex.IsMatch(email))
+                //{
+                //    return email;
+                //}
+                //else
+                //{
+                //    throw new Exception("Email inválido!");
+                //}
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error...: " + e.Message);
+                return LerEmail();
+            }
+        }
+        #endregion
     }
 }

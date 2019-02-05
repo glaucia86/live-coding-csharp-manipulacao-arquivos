@@ -15,14 +15,18 @@ namespace ManipulacaoArquivos
             produto.CodigoProduto = leituraProduto.LerCodigoProduto();
             produto.NomeProduto = leituraProduto.LerNomeProduto();
             produto.PrecoProduto = leituraProduto.LerPrecoProduto();
+            produto.Email = leituraProduto.LerEmail();
 
             Console.WriteLine("\n Empresa XYZ");
             Console.WriteLine("Código do Produto...: " + produto.CodigoProduto);
             Console.WriteLine("Nome do Produto...: " + produto.NomeProduto);
             Console.WriteLine("Preço do Produto...: " + produto.PrecoProduto);
+            Console.WriteLine("E-mail...: " + produto.Email);
 
             var arquivo = new Arquivo();
+            
             arquivo.GravarProdutoExcel(produto);
+            arquivo.GravarProdutoXml(produto);
 
             Console.ReadKey();
         }

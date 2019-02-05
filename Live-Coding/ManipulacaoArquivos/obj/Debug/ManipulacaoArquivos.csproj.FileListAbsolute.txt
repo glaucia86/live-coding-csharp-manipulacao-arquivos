@@ -1,0 +1,7 @@
+D:\Live Coding\live-coding-csharp-manipulacao-arquivos\Live-Coding\ManipulacaoArquivos\bin\Debug\ManipulacaoArquivos.exe.config
+D:\Live Coding\live-coding-csharp-manipulacao-arquivos\Live-Coding\ManipulacaoArquivos\bin\Debug\ManipulacaoArquivos.exe
+D:\Live Coding\live-coding-csharp-manipulacao-arquivos\Live-Coding\ManipulacaoArquivos\bin\Debug\ManipulacaoArquivos.pdb
+D:\Live Coding\live-coding-csharp-manipulacao-arquivos\Live-Coding\ManipulacaoArquivos\obj\Debug\ManipulacaoArquivos.csprojAssemblyReference.cache
+D:\Live Coding\live-coding-csharp-manipulacao-arquivos\Live-Coding\ManipulacaoArquivos\obj\Debug\ManipulacaoArquivos.csproj.CoreCompileInputs.cache
+D:\Live Coding\live-coding-csharp-manipulacao-arquivos\Live-Coding\ManipulacaoArquivos\obj\Debug\ManipulacaoArquivos.exe
+D:\Live Coding\live-coding-csharp-manipulacao-arquivos\Live-Coding\ManipulacaoArquivos\obj\Debug\ManipulacaoArquivos.pdb
