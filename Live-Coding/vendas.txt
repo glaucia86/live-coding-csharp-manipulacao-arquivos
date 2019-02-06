@@ -1,0 +1,2 @@
+1;Teclado;15,00;teste@gmail.com
+2;Mouse;20,00;teste-1@gmail.com
