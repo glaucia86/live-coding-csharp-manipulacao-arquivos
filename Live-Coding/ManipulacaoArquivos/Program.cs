@@ -27,6 +27,7 @@ namespace ManipulacaoArquivos
             
             arquivo.GravarProdutoExcel(produto);
             arquivo.GravarProdutoXml(produto);
+            arquivo.GravarProdutoTxt(produto);
 
             Console.ReadKey();
         }

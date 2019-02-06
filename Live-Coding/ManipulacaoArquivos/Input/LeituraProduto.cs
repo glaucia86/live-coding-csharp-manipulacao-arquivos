@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Text.RegularExpressions; // Biblioteca do C# para Regex
 
 namespace ManipulacaoArquivos.Input
@@ -94,21 +90,19 @@ namespace ManipulacaoArquivos.Input
         {
             try
             {
-                Console.Write("Informe o e-mail do Cliente...: ");
+                Console.Write("Informe o E-mail...: ");
                 string email = Console.ReadLine();
 
-                return email;
+                var regex = new Regex(@"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z");
 
-                // var regex = new Regex("/^([A-Za-z0-9_\\-\\.])+\\@([A-Za-z0-9_\\-\\.])+\\.([A-Za-z]{2,4})$/");
-
-                //if(regex.IsMatch(email))
-                //{
-                //    return email;
-                //}
-                //else
-                //{
-                //    throw new Exception("Email inválido!");
-                //}
+                if (regex.IsMatch(email))
+                {
+                    return email;
+                }
+                else
+                {
+                    throw new Exception("E-mail inválido!");
+                }
             }
             catch (Exception e)
             {
