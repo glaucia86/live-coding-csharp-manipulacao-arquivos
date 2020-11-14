@@ -6,11 +6,11 @@
 
 ### Visual Studio
 
-* [Visual Studio 2017](https://visualstudio.microsoft.com/pt-br/vs/)
+* [Visual Studio 2017](https://visualstudio.microsoft.com/vs/?WT.mc_id=javascript-0000-gllemos)
 
 ### Visual Studio Code
 
-* [Visual Studio Code](https://code.visualstudio.com/)
+* [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=javascript-0000-gllemos)
 
 
 ## O que vou aprender?! :blue_book: 
